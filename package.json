@@ -1,0 +1,32 @@
+{
+    "description": "Generador de contraseñas seguras para Firefox",
+    "license": "GPL v3.0", 
+    "author": "Gioyik", 
+    "version": "0.1", 
+    "fullName": "Safe Password", 
+    "id": "jid1-rRdrEA37CAeH6g", 
+    "name": "safe-password",
+    "preferences": [
+        {
+            "description": "Que tan larga debe ser tu contraseña?", 
+            "type": "integer", 
+            "name": "passwordLength", 
+            "value": 32, 
+            "title": "Largo de la contraseña"
+        }, 
+        {
+            "description": "La contraseña es generada aleatoriamente con estos caracteres", 
+            "type": "string", 
+            "name": "passwordChars", 
+            "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()", 
+            "title": "Caracteres para tu contraseña"
+        }, 
+        {
+            "description": "Debe ser copiada la contraseña generada en el clipboard?", 
+            "type": "integer", 
+            "name": "copyDuration", 
+            "value": 20, 
+            "title": "Duracion para copiar en Clipboard (segundos)"
+        }
+    ] 
+}
